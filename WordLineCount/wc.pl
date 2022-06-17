@@ -12,4 +12,5 @@ for ( @ARGV ) {
 	open my $filehandle, "<", $_ ;
 	my @lines = <$filehandle> ;
 	print $#lines+1, "\t$_" , "\n" ;
+	close $filehandle ;
 }
