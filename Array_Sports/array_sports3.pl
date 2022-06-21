@@ -6,4 +6,4 @@ use warnings ;
 use lib "." ;
 use ArrayTools ;
 
-print mean ( 1..100 ), "\n" ;
+print highest ( 1..100 ), "\n" ;
